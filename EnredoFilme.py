@@ -14,8 +14,10 @@ def gerar_genero():
 
 
 def gerar_titulo(genero):
-  adjetivos = ["A misteriosa", "O enigmático", "O inesperado", "O fascinante", "O incrível", "A implacável", "A inesquecível", "A intrigante", "A verdadeira", "A séria", "A bonita", "A alta", "A rica", "A maravilhosa", "A incrível", "Segredos", "Misterioso", "O poderoso", "A sombria", "A desafiadora", "A épica"]
-  substantivos = ["da fantasia", "da aventura", "do mistério", "Perdido nas estrelas", "Perdidos no céu", "da vida", "da morte", "da esperança", "da felicidade", "do destino", "dos sonhos", "do perigo", "do desconhecido", "das sombras", "do amor", "da guerra", "da redenção", "da glória", "da destruição", "da eternidade"]
+  adjetivos = ["A misteriosa", "O enigmático", "O inesperado", "O fascinante", "O incrível", "A implacável", "A inesquecível", "A intrigante", "A verdadeira", 
+               "A séria", "A bonita", "A alta", "A rica", "A maravilhosa", "A incrível", "Segredos", "Misterioso", "O poderoso", "A sombria", "A desafiadora", "A épica"]
+  substantivos = ["da fantasia", "da aventura", "do mistério", "Perdido nas estrelas", "Perdidos no céu", "da vida", "da morte", "da esperança", "da felicidade",
+                  "do destino", "dos sonhos", "do perigo", "do desconhecido", "das sombras", "do amor", "da guerra", "da redenção", "da glória", "da destruição", "da eternidade"]
   return f"{random.choice(adjetivos)} {genero} {random.choice(substantivos)}"
 
 
@@ -31,7 +33,8 @@ def gerar_personagens():
 
 
 def gerar_cenários ():
-  cenarios = ["na praia", "no campo", "na floresta", "na cidade", "no deserto", "no mar", "na ilha", "na escola", "no cinema", "no hospital", "no parque", "na montanha", "no escritório", "na estação de metrô", "no restaurante", "na cafeteria", "no mercado", "na estação de trem", "no aeroporto", "na rua movimentada"]
+  cenarios = ["na praia", "no campo", "na floresta", "na cidade", "no deserto", "no mar", "na ilha", "na escola", "no cinema", "no hospital", "no parque", 
+              "na montanha", "no escritório", "na estação de metrô", "no restaurante", "na cafeteria", "no mercado", "na estação de trem", "no aeroporto", "na rua movimentada"]
   return random.choice(cenarios)  
 
 def gerar_resumo(personagens, cenario, genero):
