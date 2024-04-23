@@ -1,0 +1,81 @@
+/* Estilos gerais para a página */
+body {
+    font-family: 'Lobster';
+    margin: 25%;
+    padding: 0;
+    background-color: #e9c9e1;
+}
+
+.img1 {
+    display: block;
+    margin: 0 auto; /* Centraliza horizontalmente */
+    max-width: 20%; /* Limita a largura máxima à largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    }
+
+.img2 {
+        display: block;
+        margin: 0 auto; /* Centraliza horizontalmente */
+        max-width: 20%; /* Limita a largura máxima à largura do contêiner */
+        height: auto; /* Mantém a proporção da imagem */
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #8d6984;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    overflow: hidden;
+}
+
+h2 {
+    text-align: center;
+    color: #000000;
+    font-family: 'Lobster'
+}
+
+h3 {
+    text-align: center;
+    margin-top: 10px;
+    color: #000000;
+    font-family: 'Lobster'
+}
+
+/* Estilos para o formulário */
+form {
+    margin-top: 100px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #000000;
+    text-align: center;
+}
+
+input{
+    width: 50%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #382129;
+    border-radius: 5px;
+    text-align: center;
+}
+
+input[type="submit"] {
+    width: 25%;
+    padding: 10px;
+    background-color: #803072;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+input[type="submit"]:hover {
+    background-color: #ad228f;
+}
