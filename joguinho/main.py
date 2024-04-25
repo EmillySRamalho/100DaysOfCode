@@ -150,3 +150,5 @@ while rodando:
 
     pygame.display.update()
 
+
+baseando no vídeo : https://www.youtube.com/watch?v=mNjcrarT3Io
